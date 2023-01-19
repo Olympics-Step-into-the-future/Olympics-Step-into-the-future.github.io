@@ -2,9 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Олимпиада</title>
+    <title>Pivot table</title>
+    <style>
+        #results {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #results td, #results th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #results tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #results tr:hover {
+            background-color: #ddd;
+        }
+
+        #results th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-<h1>Олимпиада</h1>
+<table id="results">
+    <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Count success map</th>
+        <th>All path</th>
+        <th>Count steps</th>
+    </tr><tr><td>1</td><td>user-02</td><td>2</td><td>80</td><td>26</td></tr><tr><td>2</td><td>user-01</td><td>2</td><td>85</td><td>26</td></tr><tr><td>3</td><td>user-03</td><td>1</td><td>19</td><td>80</td></tr><tr><td>4</td><td>ai-lenok</td><td>1</td><td>76</td><td>21</td></tr></table>
 </body>
 </html>
